@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hairnic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light py-3">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-light" href="#">Hairnic</a>
+
+    <div class="collapse navbar-collapse justify-content-end">
+      <ul class="navbar-nav align-items-lg-center gap-3">
+        <li class="nav-item"><a class="nav-link text-light fw-bold" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        <li class="nav-item">
+          <a class="btn btn-dark px-4" href="#">Shop Now</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero-section mb-5">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Text -->
+      <div class="col-lg-6 text-lg-start text-center">
+        <span class="hero-small">Natural & Organic</span>
+        <h1 class="hero-title">
+          Hair Shampoo For<br>
+          <span>Healthy Hair</span>
+        </h1>
+        <p class="hero-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Etiam feugiat rutrum lectus sed varius.
+        </p>
+
+        <div class="d-flex gap-3 justify-content-lg-start justify-content-center">
+          <a href="#" class="btn btn-dark px-4">Shop Now</a>
+          <a href="#" class="btn btn-outline-dark px-4">Contact Us</a>
+        </div>
+      </div>
+
+      <!-- Image Placeholder -->
+      <div class="col-lg-6 mt-5 mt-lg-5 text-center">
+        <div class="product-placeholder mx-auto">
+            <img class="w-75" src="./shampoo.png" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="features-section py-5">
+  <div class="container">
+
+    <!-- Feature Boxes -->
+    <div class="row justify-content-center mb-5 g-4">
+      <div class="col-md-4 col-sm-6">
+        <div class="feature-box text-center">
+          <div class="icon mb-3">🍃</div>
+          <h6>100% Natural</h6>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="feature-box text-center">
+          <div class="icon mb-3">🌿</div>
+          <h6>Anti Hair Fall</h6>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-6">
+        <div class="feature-box text-center">
+          <div class="icon mb-3">✖</div>
+          <h6>Hypoallergenic</h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content -->
+    <div class="row align-items-center">
+
+      <!-- Image -->
+      <div class="col-lg-6 text-center mb-4 mb-lg-0">
+        <div class="product-wrap">
+          <!-- صورة الشامبو -->
+          <img src="./shampoo-1.png" class="img-fluid product-img" alt="">
+        </div>
+      </div>
+
+      <!-- Text -->
+      <div class="col-lg-6">
+        <h3 class="section-title">
+          Healthy Hair <span>Is A Symbol</span><br>
+          Of Our Beauty
+        </h3>
+
+        <p class="section-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Duis aliquet, purus non malesuada consequat, nibh erat
+          porttitor ligula, vitae gravida arcu justo at elit.
+        </p>
+
+        <a href="#" class="btn btn-success px-4">Shop Now</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<div class="tip-section">
+  <div class="tip-card">
+
+    <h4 class="tip-title">Tip Calculator</h4>
+
+    <input type="number" class="value1" placeholder="Enter Amount">
+
+    <select>
+      <option value="5">5% Tip</option>
+      <option value="10">10% Tip</option>
+      <option value="15">15% Tip</option>
+      <option value="20">20% Tip</option>
+    </select>
+
+    <button class="btn-calc">Calculate</button>
+
+    <p class="result">Total: $0</p>
+
+  </div>
+</div>
+<script src="./js/bootstrap.bundle.min.js"></script>
+<script src="./js/all.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

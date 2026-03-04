@@ -1,0 +1,124 @@
+body{
+    background-color: mediumseagreen;
+    background-image: url(./bg.png);
+}
+/* Section */
+.features-section {
+  background-color: #ffffff;
+}
+
+/* Feature Boxes */
+.feature-box {
+  background-color: #9cc37c;
+  padding: 30px 20px;
+  border-radius: 6px;
+  color: #fff;
+}
+
+.feature-box h6 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.feature-box .icon {
+  font-size: 28px;
+}
+
+/* Product Image */
+.product-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.product-img {
+  max-height: 360px;
+  z-index: 2;
+  position: relative;
+}
+
+/* Text */
+.section-title {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section-title span {
+  color: #8abf6a;
+}
+
+.section-text {
+  max-width: 450px;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+/* Button */
+.btn-success {
+  background-color: #8abf6a;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #6c9b58;
+}
+
+.tip-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9cc37c;
+}
+
+.tip-card {
+  background: #ffffff;
+  padding: 30px;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+  text-align: center;
+}
+
+.tip-title {
+  margin-bottom: 25px;
+  font-weight: 700;
+  color: #2f3d2f;
+}
+
+.tip-card input,
+.tip-card select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.tip-card input:focus,
+.tip-card select:focus {
+  border-color: #8abf6a;
+}
+
+.btn-calc {
+  width: 100%;
+  padding: 12px;
+  background-color: #8abf6a;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-calc:hover {
+  background-color: #6c9b58;
+}
+
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2f3d2f;
+}
